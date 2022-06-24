@@ -10,7 +10,7 @@ public class Config{
 
     static {
         BUILDER.push("Config For Runner");
-        SPEED = BUILDER.comment("Speed (Default Value 0.13): ").define("speed", 0.13F);
+        SPEED = BUILDER.comment("Speed (Default Value 0.13): ").define("speed", 0.11F);
         BUILDER.pop();
         SPEC = BUILDER.build();
     }
